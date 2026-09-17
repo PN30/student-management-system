@@ -1,9 +1,5 @@
 package com.studentms.model;
 
-/**
- * Base class demonstrating Inheritance.
- * Student will extend this class.
- */
 public abstract class Person {
 
     // Encapsulation: fields are private, accessed only through getters/setters

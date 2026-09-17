@@ -10,10 +10,6 @@ import java.util.Collection;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-/**
- * Service layer - handles all business logic and storage.
- * Uses a Map (Java Collections) keyed by studentId for fast lookup.
- */
 public class StudentService {
 
     private static final Logger logger = LoggerFactory.getLogger(StudentService.class);

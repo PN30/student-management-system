@@ -9,9 +9,6 @@ import org.slf4j.LoggerFactory;
 
 import java.util.Scanner;
 
-/**
- * Console entry point for the Student Management System.
- */
 public class Main {
 
     private static final Logger logger = LoggerFactory.getLogger(Main.class);

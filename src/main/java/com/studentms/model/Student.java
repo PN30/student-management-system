@@ -1,9 +1,6 @@
 package com.studentms.model;
 
-/**
- * Student extends Person -> Inheritance.
- * All fields remain private -> Encapsulation.
- */
+
 public class Student extends Person {
 
     private int studentId;
