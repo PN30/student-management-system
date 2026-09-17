@@ -2,7 +2,6 @@ package com.studentms.model;
 
 public abstract class Person {
 
-    // Encapsulation: fields are private, accessed only through getters/setters
     private String name;
     private int age;
 
@@ -27,6 +26,5 @@ public abstract class Person {
         this.age = age;
     }
 
-    // Abstract method - forces subclasses to provide their own display logic
     public abstract String getDetails();
 }

@@ -14,7 +14,6 @@ public class StudentService {
 
     private static final Logger logger = LoggerFactory.getLogger(StudentService.class);
 
-    // Java Collections Framework used for in-memory storage
     private final Map<Integer, Student> studentRecords = new LinkedHashMap<>();
 
     public void addStudent(Student student) {
@@ -57,7 +56,7 @@ public class StudentService {
 
     public void updateStudent(int studentId, String course, double grade)
             throws StudentNotFoundException {
-        Student student = searchStudent(studentId); // reuses lookup + throws if missing
+        Student student = searchStudent(studentId);
         if (grade < 0 || grade > 100) {
             logger.warn("Rejected update: invalid grade {} for student ID {}", grade, studentId);
             throw new InvalidStudentDataException("Grade must be between 0 and 100.");

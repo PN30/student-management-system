@@ -132,7 +132,6 @@ public class Main {
         System.out.println("Student deleted successfully.");
     }
 
-    // Helper methods that turn bad input into our own clear exceptions
     private static int readInt() {
         try {
             return Integer.parseInt(scanner.nextLine().trim());

@@ -18,7 +18,6 @@ public class Student extends Person {
         return studentId;
     }
 
-    // No setter for studentId on purpose - ID should be immutable once created
 
     public String getCourse() {
         return course;
